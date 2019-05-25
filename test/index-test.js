@@ -23,3 +23,14 @@ function logShout(string){
 
 logShout('hello');
 
+// Fourth Function 
+function logWhisper(string){
+  console.log(string.toLowerCase())
+}
+function spy(string){
+  return logWhisper(string);
+}
+logWhisper('JAMAL')
+spy('JAMAL');
+
+// Fifth function
