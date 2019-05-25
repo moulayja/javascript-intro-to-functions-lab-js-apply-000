@@ -6,7 +6,13 @@ function shout(string){
   
 }
 
+shout('hello');
+
 // to Lower Case Function
+function whisper(string){
+    return string.toLowerCase();
+}
+whisper('HELLO');
 
 
 describe('logShout(string)', function() {
